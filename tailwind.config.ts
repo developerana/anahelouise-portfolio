@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['Sora', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        heading: ['JetBrains Mono', 'monospace'],
+        body: ['JetBrains Mono', 'monospace'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
