@@ -50,31 +50,42 @@ export const AboutSection = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Foto e texto */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-6"
+            className="flex flex-col items-center lg:items-start gap-8"
           >
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou uma desenvolvedora Front-End com formação em Sistemas de
-              Informação, dedicada a criar interfaces que combinam{" "}
-              <span className="text-foreground font-medium">
-                funcionalidade e estética
-              </span>
-              .
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Durante minha trajetória acadêmica, desenvolvi projetos reais que
-              me permitiram aplicar conceitos de programação, design de
-              interfaces e organização de sistemas. Meu foco está em entregar
-              soluções que realmente façam sentido para o usuário final.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Estou sempre em busca de novos desafios e oportunidades para
-              crescer profissionalmente na área de tecnologia, contribuindo com
-              minha visão orientada a detalhes e qualidade de código.
-            </p>
+            {/* Espaço para foto */}
+            <div className="relative">
+              <div className="w-48 h-48 sm:w-56 sm:h-56 rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 border border-primary/20 flex items-center justify-center overflow-hidden">
+                {/* Substitua o src abaixo pela sua imagem */}
+                <img 
+                  src="/placeholder.svg" 
+                  alt="Ana Helouise" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-2 -right-2 w-16 h-16 rounded-xl bg-primary/10 border border-primary/20 -z-10" />
+              <div className="absolute -top-2 -left-2 w-12 h-12 rounded-lg bg-primary/5 border border-primary/10 -z-10" />
+            </div>
+
+            <div className="space-y-4 text-center lg:text-left">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Sou uma desenvolvedora Front-End com formação em Sistemas de
+                Informação, dedicada a criar interfaces que combinam{" "}
+                <span className="text-foreground font-medium">
+                  funcionalidade e estética
+                </span>
+                .
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Durante minha trajetória acadêmica, desenvolvi projetos reais que
+                me permitiram aplicar conceitos de programação, design de
+                interfaces e organização de sistemas.
+              </p>
+            </div>
           </motion.div>
 
           <motion.div
