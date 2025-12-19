@@ -36,9 +36,9 @@ export const HeroSection = () => {
           duration: 0.6,
           delay: 0.1
         }} className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold mb-6 tracking-tight">
-            Olá, eu sou{" "}
-            <span className="gradient-text">
-Ana Helouise</span>
+            Olá, eu sou
+            <br />
+            <span className="gradient-text">Ana Helouise</span>
           </motion.h1>
 
           <motion.p initial={{
