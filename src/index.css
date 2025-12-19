@@ -1,9 +1,4 @@
-@import url('@fontsource/sora/400.css');
-@import url('@fontsource/sora/500.css');
-@import url('@fontsource/sora/600.css');
-@import url('@fontsource/sora/700.css');
-@import url('@fontsource/inter/400.css');
-@import url('@fontsource/inter/500.css');
+/* Fonts loaded via Google Fonts in index.html */
 
 @tailwind base;
 @tailwind components;
@@ -57,8 +52,8 @@
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
-    --font-heading: 'Sora', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Poppins', sans-serif;
 
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 0 0% 95%;
