@@ -41,7 +41,7 @@ export const AboutSection = () => {
           <span className="text-sm font-medium tracking-wider uppercase text-secondary-foreground">
             Sobre Mim
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mt-3">Quem sou eu?
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mt-3 text-primary">Quem sou eu?
           </h2>
         </motion.div>
 
