@@ -117,6 +117,18 @@ export default {
           "50%": { backgroundPosition: "100% 50%" },
           "100%": { backgroundPosition: "0% 50%" },
         },
+        "card-float": {
+          "0%, 100%": { transform: "translateY(0) rotateX(0)" },
+          "50%": { transform: "translateY(-5px) rotateX(2deg)" },
+        },
+        "border-glow": {
+          "0%, 100%": { borderColor: "hsl(141, 73%, 42%, 0.2)" },
+          "50%": { borderColor: "hsl(141, 73%, 42%, 0.5)" },
+        },
+        "shimmer-slow": {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -131,6 +143,9 @@ export default {
         "float-slow": "float-slow 8s ease-in-out infinite",
         "pulse-glow": "pulse-glow 3s ease-in-out infinite",
         "gradient-shift": "gradient-shift 8s ease infinite",
+        "card-float": "card-float 6s ease-in-out infinite",
+        "border-glow": "border-glow 3s ease-in-out infinite",
+        "shimmer-slow": "shimmer-slow 8s linear infinite",
       },
     },
   },
