@@ -6,31 +6,31 @@ const skillCategories = [
   {
     title: "Linguagens & Frameworks",
     skills: [
-      { name: "HTML5", level: 95 },
-      { name: "CSS3 / Sass", level: 90 },
-      { name: "JavaScript", level: 85 },
-      { name: "TypeScript", level: 75 },
-      { name: "React", level: 80 },
+      { name: "HTML5", level: 100 },
+      { name: "CSS3 / Sass", level: 100 },
+      { name: "JavaScript", level: 100 },
+      { name: "TypeScript", level: 100 },
+      { name: "React", level: 100 },
     ],
   },
   {
     title: "Ferramentas & Tecnologias",
     skills: [
-      { name: "Git / GitHub", level: 85 },
-      { name: "Figma", level: 80 },
-      { name: "Tailwind CSS", level: 90 },
-      { name: "Node.js", level: 65 },
-      { name: "SQL", level: 70 },
+      { name: "Git / GitHub", level: 100 },
+      { name: "Figma", level: 100 },
+      { name: "Tailwind CSS", level: 100 },
+      { name: "Node.js", level: 100 },
+      { name: "SQL", level: 100 },
     ],
   },
   {
     title: "Soft Skills",
     skills: [
-      { name: "Trabalho em Equipe", level: 95 },
-      { name: "Comunicação", level: 90 },
-      { name: "Resolução de Problemas", level: 85 },
-      { name: "Organização", level: 90 },
-      { name: "Aprendizado Contínuo", level: 95 },
+      { name: "Trabalho em Equipe", level: 100 },
+      { name: "Comunicação", level: 100 },
+      { name: "Resolução de Problemas", level: 100 },
+      { name: "Organização", level: 100 },
+      { name: "Aprendizado Contínuo", level: 100 },
     ],
   },
 ];
@@ -73,9 +73,7 @@ export const SkillsSection = () => {
                   <div key={skill.name}>
                     <div className="flex justify-between mb-2">
                       <span className="text-sm font-medium">{skill.name}</span>
-                      <span className="text-sm text-muted-foreground">
-                        {skill.level}%
-                      </span>
+
                     </div>
                     <div className="h-2 bg-muted rounded-full overflow-hidden">
                       <motion.div
