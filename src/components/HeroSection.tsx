@@ -103,7 +103,7 @@ export const HeroSection = () => {
       }} transition={{
         duration: 0.6,
         delay: 0.8
-      }} className="absolute bottom-4 left-1/2 -translate-x-1/2">
+      }} className="absolute bottom-2 left-1/2 -translate-x-1/2 mb-4">
           <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <span className="text-xs">Role para baixo</span>
             <ArrowDown className="w-5 h-5 animate-bounce" />
