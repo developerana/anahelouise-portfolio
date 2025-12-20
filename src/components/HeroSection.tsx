@@ -65,7 +65,7 @@ export const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.3
-        }} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+        }} className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
             <Button variant="hero" size="lg" asChild>
               <a href="#projects">Ver Projetos</a>
             </Button>
