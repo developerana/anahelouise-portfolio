@@ -22,7 +22,7 @@ export const HeroSection = () => {
           duration: 0.6
         }} className="mb-6">
             <span className="inline-block px-4 py-2 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
-              Desenvolvedora Front-End
+              Desenvolvedora
             </span>
           </motion.div>
 
@@ -51,7 +51,7 @@ export const HeroSection = () => {
           duration: 0.6,
           delay: 0.2
         }} className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Bacharel em Sistemas de Informação, apaixonada por criar interfaces
+            Bacharel em Sistemas de Informação, apaixonada por criar e desenvolver interfaces
             funcionais, sistemas organizados e experiências digitais que fazem
             a diferença.
           </motion.p>

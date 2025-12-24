@@ -57,8 +57,8 @@ export const AboutSection = () => {
           delay: 0.2
         }} className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou uma desenvolvedora Front-End com formação em Sistemas de
-              Informação, dedicada a criar interfaces que combinam{" "}
+              Sou uma desenvolvedora com formação em Sistemas de
+              Informação, dedicada a criar e desenvolver interfaces que combinam{" "}
               <span className="text-foreground font-medium">
                 funcionalidade e estética
               </span>

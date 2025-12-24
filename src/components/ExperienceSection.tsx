@@ -2,24 +2,8 @@ import { motion } from "framer-motion";
 import { Briefcase, GraduationCap, Award, Calendar } from "lucide-react";
 
 const experiences = [
-  {
-    type: "work",
-    title: "Desenvolvedora Front-End",
-    company: "Tech Company",
-    period: "2023 - Presente",
-    description: "Desenvolvimento de interfaces responsivas com React, TypeScript e Tailwind CSS. Colaboração em projetos ágeis e implementação de boas práticas de UX.",
-    icon: Briefcase,
-  },
-  {
-    type: "internship",
-    title: "Estágio em Desenvolvimento Web",
-    company: "Startup Inovadora",
-    period: "2022 - 2023",
-    description: "Atuação no desenvolvimento de aplicações web, manutenção de sistemas e integração de APIs RESTful.",
-    icon: Briefcase,
-  },
-  {
-    type: "education",
+    {
+    type: "education", 
     title: "Bacharel em Sistemas de Informação",
     company: "Fundação de Ensino e Pesquisa de Itajubá - FEPI",
     period: "2022 - 2025",
@@ -27,12 +11,28 @@ const experiences = [
     icon: GraduationCap,
   },
   {
-    type: "achievement",
-    title: "Projeto de Iniciação Científica",
-    company: "Laboratório de Pesquisa",
-    period: "2021 - 2022",
-    description: "Pesquisa em usabilidade e acessibilidade web, resultando em publicação acadêmica e apresentação em congresso.",
-    icon: Award,
+    type: "work",
+    title: "Scrum Master",
+    company: "Plataforma de Gerenciamento de Atletas - T21 Arena Park (FEPI)",
+    period: "07/2024 - 12/2024",
+    description: "Liderei uma equipe multidisciplinar, composta por desenvolvedores, designers, analistas e testadores, garantindo que todos estivessem alinhados com os objetivos do nosso projeto",
+    icon: Briefcase,
+  },
+  {
+    type: "internship",
+    title: "Desenvolvedora Front-End",
+    company: "Plataforma de Gerenciamento de Atletas - T21 Arena Park (FEPI)",
+    period: "03/2024 - 06/2024",
+    description: "Trabalhei com tecnologias como React.js e Tailwind CSS para garantir uma experiência fluida para os usuários. Sempre ocando em práticas de desenvolvimento responsivo, acessível e intuitivas",
+    icon: Briefcase,
+  },
+  {
+    type: "internship",
+    title: "Site de Saude Mental",
+    company: "Escola Estadual Nossa Senhora de Lourdes",
+    period: "2018 - 2020",
+    description: "Durante o ensino médio, criei um site chamado “Corrente do Bem” para ajudar pessoas lidando com depressão e ansiedade. O site oferecia recursos úteis e mensagens de apoio para aqueles que precisavam de orientação e conforto. Palestrei sobre o projeto para dezenas de pessoas.",
+    icon: Briefcase,
   },
 ];
 

@@ -6,37 +6,38 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Sistema de Gestão Acadêmica",
+    title: "Sistema T21 Arena Park",
     description:
-      "Aplicação web para gerenciamento de notas, frequência e informações de alunos. Desenvolvido como projeto de conclusão de curso.",
-    tags: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
+      "Sistema de Gestão de Atletas com Sintrome de Down. Registra informações pessoais, dados de anamnese e monitora aspectos físicos e psicológicos dos atletas. Desenvolvido durante o ano de 2024 no 5º e 6º periodo do curso de Sistemas de Informação.",
+    tags: ["T21", "React", "Prisma", "Tailwind CSS"],
     github: "#",
-    demo: "#",
+    demo: "https://t21-arena-park.com/",
+  },
+    {
+    title: "Site para o Núcleo Mariense de Letras",
+    description:
+      "Site para apresentar e divulgar um coletivo de Maria da Fé - MG, que tem a missão de promover e difundir a arte local em suas mais diversas formas.",
+    tags: ["HTML", "CSS", "JavaScript", "NUMALE"],
+    github: "#",
+    demo: "https://anahelouise.github.io/numale/" ,
   },
   {
-    title: "E-commerce Responsivo",
+    title: "E-commerce para a Opção Vidraçaria",
     description:
-      "Loja virtual com carrinho de compras, filtros de produtos e integração com API de pagamentos. Foco em UX e performance.",
-    tags: ["TypeScript", "React", "Redux", "Styled Components"],
+      "Loja virtual para uma vidraçãria de Maria da Fé. Apresentação, tipos de serviços, orçamentos e produtos. Foco em UX e performance.",
+    tags: ["TypeScript", "React", "Vite", "Tailwind CSS"],
     github: "#",
-    demo: "#",
+    demo: "https://opcaovidracaria.vercel.app/",
   },
   {
-    title: "Dashboard de Analytics",
+    title: "Attack On Titan Wiki",
     description:
-      "Painel administrativo com gráficos interativos, relatórios e visualização de métricas em tempo real.",
-    tags: ["React", "Chart.js", "API REST", "CSS Modules"],
+      "Attack On Titan Wiki é uma enciclopédia dedicada ao universo de Shingeki no Kyojin (Attack on Titan), feita com o proposito de praticar o desenvolvimento de sites estaticos.",
+    tags: ["HTML", "CSS", "JavaScript", "NUMALE"],
     github: "#",
-    demo: "#",
+    demo: "https://anahelouise.github.io/attackontitanwiki/",
   },
-  {
-    title: "App de Tarefas",
-    description:
-      "Aplicativo de produtividade com funcionalidades de criação, edição e organização de tarefas por categorias.",
-    tags: ["JavaScript", "LocalStorage", "CSS3", "HTML5"],
-    github: "#",
-    demo: "#",
-  },
+
 ];
 
 export const ProjectsSection = () => {

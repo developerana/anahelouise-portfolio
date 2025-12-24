@@ -11,8 +11,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "ana.helouise@email.com",
-    href: "mailto:ana.helouise@email.com",
+    value: "anahelouise.ss@email.com",
+    href: "mailto:anahelouise.ss@email.com",
   },
   {
     icon: MapPin,
@@ -23,8 +23,8 @@ const contactInfo = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "/in/anahelouise",
-    href: "https://linkedin.com",
+    value: "Ana Helouise",
+    href: "https://www.linkedin.com/in/anahelouise/",
   },
   {
     icon: Github,
